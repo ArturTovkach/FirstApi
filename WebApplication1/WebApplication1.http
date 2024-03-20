@@ -1,0 +1,19 @@
+@WebApplication1_HostAddress = https://localhost:7098
+
+GET {{WebApplication1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{WebApplication1_HostAddress}}/api/superhero
+
+###
+
+POST {{WebApplication1_HostAddress}}/api/superhero
+Content-Type: application/json
+
+{
+  //SuperHero
+}
+
+###
